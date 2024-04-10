@@ -15,4 +15,4 @@ bisiesto a = (a `mod` 4 == 0) &&
 distanciaManhattan :: (Float, Float, Float) -> 
     (Float, Float, Float) -> Float
 distanciaManhattan (p0, p1, p2) (q0, q1, q2) =
-    abs (p0 - q0) + abs (p1 - q1) + abs (p2 - q2)
+    abs (p0 - q0) + abs (p1 - q1) + abs (p2 - q2) 
